@@ -238,7 +238,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a223d868d8eb54abf5c22497d0ae0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MainMenu
+  sceneToLoad: TestLevel2
 --- !u!1 &122284913
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 122284916}
   - component: {fileID: 122284915}
   m_Layer: 0
-  m_Name: Floor (4)
+  m_Name: KillBox
   m_TagString: DeathBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -403,6 +403,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122284913}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &145002213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145002215}
+  - component: {fileID: 145002214}
+  m_Layer: 0
+  m_Name: Level Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &145002214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145002213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d44d98680a737b498d01412e440f0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelParent: {fileID: 1170442323}
+--- !u!4 &145002215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145002213}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1170442325}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &165936167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,26 +1061,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1170442325}
-  - component: {fileID: 1170442324}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1170442324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170442323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d44d98680a737b498d01412e440f0bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1170442325
 Transform:
   m_ObjectHideFlags: 0
@@ -1054,7 +1087,7 @@ Transform:
   - {fileID: 1109113028}
   - {fileID: 165936168}
   - {fileID: 1194064919}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 145002215}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1194064918
 GameObject:
@@ -1363,7 +1396,7 @@ GameObject:
   - component: {fileID: 1880554199}
   - component: {fileID: 1880554198}
   m_Layer: 0
-  m_Name: Floor (5)
+  m_Name: Goal
   m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1492,4 +1525,4 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 90770780}
   - {fileID: 1119993263}
-  - {fileID: 1170442325}
+  - {fileID: 145002215}
