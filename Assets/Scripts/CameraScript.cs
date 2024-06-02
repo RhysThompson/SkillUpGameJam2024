@@ -6,7 +6,6 @@ public class CameraScript : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
         Offset = this.transform.position - GameObject.FindGameObjectWithTag("Player").transform.position;
     }
 

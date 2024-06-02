@@ -14,7 +14,7 @@ public class FloorScript : MonoBehaviour
         LevelParent.transform.parent = this.transform;
         this.transform.eulerAngles = rot;
 
-        this.transform.Rotate(new Vector3(Mathf.Clamp(Input.GetAxisRaw("Mouse Y") + Input.GetAxis("Vertical"), -1,1), 0, -Mathf.Clamp(Input.GetAxisRaw("Mouse X") + Input.GetAxis("Horizontal"), -1, 1)));
+        this.transform.Rotate(new Vector3(Mathf.Clamp(/*Input.GetAxisRaw("Mouse Y") + */Input.GetAxis("Vertical"), -1,1), 0, -Mathf.Clamp(/*Input.GetAxisRaw("Mouse X") + */Input.GetAxis("Horizontal"), -1, 1)));
         if(Input.GetKey(KeyCode.Escape)) UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 }
