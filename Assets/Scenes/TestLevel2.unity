@@ -403,6 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 
 --- !u!114 &122284920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,7 +421,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 122284919}
         m_TargetAssemblyTypeName: FunctionsScript, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: FadeScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -595,6 +596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelParent: {fileID: 1170442323}
+  AxisLock: 0
 --- !u!4 &624238257
 Transform:
   m_ObjectHideFlags: 0
@@ -760,6 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 
 --- !u!114 &640946981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,7 +780,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 640946980}
         m_TargetAssemblyTypeName: FunctionsScript, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: FadeScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -970,7 +973,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 14.59, z: -15.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1358426990}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 35.926, y: 0, z: 0}
 --- !u!114 &963194229
@@ -1269,6 +1273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 
 --- !u!114 &1119993265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1331,7 +1336,7 @@ Transform:
   - {fileID: 1880554197}
   - {fileID: 1109113028}
   - {fileID: 165936168}
-  - {fileID: 1194064919}
+  - {fileID: 1566785898}
   m_Father: {fileID: 624238257}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1194064918
@@ -1365,11 +1370,11 @@ Transform:
   m_GameObject: {fileID: 1194064918}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.19, y: 1.06, z: 6.48}
-  m_LocalScale: {x: 6.4892106, y: 5.8, z: 1.09333}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1170442325}
+  m_Father: {fileID: 1566785898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1194064920
 Animator:
@@ -1505,6 +1510,183 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 
+--- !u!1 &1358426989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358426990}
+  - component: {fileID: 1358426995}
+  - component: {fileID: 1358426994}
+  - component: {fileID: 1358426993}
+  - component: {fileID: 1358426992}
+  - component: {fileID: 1358426991}
+  m_Layer: 0
+  m_Name: Fade
+  m_TagString: Fade
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1358426990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358426989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0037479694, y: -0, z: -0, w: 0.999993}
+  m_LocalPosition: {x: 0, y: 0.74, z: 2.22}
+  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 963194228}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1358426991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358426989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: 
+--- !u!95 &1358426992
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358426989}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3300a91046bdfc4bbdb41ea27de95ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1358426993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358426989}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1358426994
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358426989}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0863e21fc87b2454f88727519eb6701f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1358426995
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358426989}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1566785897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566785898}
+  m_Layer: 0
+  m_Name: Moving Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1566785898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566785897}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.19, y: 1.06, z: 6.48}
+  m_LocalScale: {x: 6.4892106, y: 5.8, z: 1.09333}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1194064919}
+  m_Father: {fileID: 1170442325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1771893904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +1971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 
 --- !u!114 &1880554203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1806,8 +1989,20 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1880554202}
         m_TargetAssemblyTypeName: FunctionsScript, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: FadeScene
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1880554202}
+        m_TargetAssemblyTypeName: FunctionsScript, Assembly-CSharp
+        m_MethodName: SaveSceneCompletion
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
