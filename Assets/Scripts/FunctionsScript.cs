@@ -10,7 +10,7 @@ public class FunctionsScript : MonoBehaviour
 
     public void FadeScene(string sceneToLoad)
     {
-        GameObject.FindGameObjectWithTag("Fade").GetComponent<FunctionsScript>().SceneToLoad = sceneToLoad;
+        GameObject.FindGameObjectWithTag("Fade").GetComponent<FunctionsScript>().SceneToLoad = sceneToLoad == "" ? SceneToLoad : sceneToLoad;
         GameObject.FindGameObjectWithTag("Fade").GetComponent<Animator>().Play("FadeOnAnim");
     }
 
