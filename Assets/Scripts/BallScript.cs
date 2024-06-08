@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class BallScript : MonoBehaviour
 {
     int Colliding = 0;
