@@ -1,9 +1,7 @@
 using UnityEngine;
-public class CheckSaveScript : MonoBehaviour
-{
+public class CheckSaveScript : MonoBehaviour {
     public string SceneToCheck;
-    void Start()
-    {
+    void Start() {
         if(!PlayerPrefs.HasKey(SceneToCheck)) this.gameObject.GetComponent<UnityEngine.UI.Button>().interactable = false;
     }
 }
