@@ -12,7 +12,8 @@ public class FloorScript : MonoBehaviour
         LevelParent.transform.parent = this.transform;
         this.transform.eulerAngles = rot;
 
-        if(AxisLock != 4) this.transform.Rotate(new Vector3(Mathf.Clamp(/*Input.GetAxisRaw("Mouse Y") + */AxisLock != 2 ? Input.GetAxis("Vertical") : 0, -1,1), 0, -Mathf.Clamp(/*Input.GetAxisRaw("Mouse X") + */AxisLock != 1 ? Input.GetAxis("Horizontal") : 0, -1, 1)));
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().AddForce(new Vector3(Mathf.Clamp(/*Input.GetAxisRaw("Mouse Y") + */AxisLock != 1 ? Input.GetAxis("Horizontal") : 0, -1, 1), 0, -Mathf.Clamp(/*Input.GetAxisRaw("Mouse X") + */AxisLock != 2 ? -Input.GetAxis("Vertical") : 0, -1, 1))/15, ForceMode.Impulse);
+        if (AxisLock != 4) this.transform.Rotate(new Vector3(Mathf.Clamp(/*Input.GetAxisRaw("Mouse Y") + */AxisLock != 2 ? Input.GetAxis("Vertical") : 0, -1,1), 0, -Mathf.Clamp(/*Input.GetAxisRaw("Mouse X") + */AxisLock != 1 ? Input.GetAxis("Horizontal") : 0, -1, 1)));
         if (Input.GetKey(KeyCode.Escape))
         {
             GameObject.FindGameObjectWithTag("Fade").GetComponent<FunctionsScript>().SceneToLoad = "MainMenu";
