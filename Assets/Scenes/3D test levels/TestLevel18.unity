@@ -678,6 +678,79 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &98163320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.699076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.100897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999924
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0035503274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.001288866
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0009865033
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.407
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.147
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.113
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
+      propertyPath: m_Name
+      value: boxrigtry1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea9c779a3d1af02439df2cd43a41d925, type: 3}
 --- !u!1 &145002213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,15 +1167,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313792791}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.003913654, y: 0.004304588, z: 0.00009220105, w: 0.9999831}
+  m_LocalPosition: {x: 0.0054044724, y: -0.004784584, z: -0.0060195923}
   m_LocalScale: {x: 6.236356, y: 8.755138, z: 6.919755}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1288792780}
   - {fileID: 1834144619}
   m_Father: {fileID: 385088515}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.448, y: 0.493, z: 0.012}
 --- !u!95 &313792793
 Animator:
   serializedVersion: 7
@@ -6135,3 +6208,4 @@ SceneRoots:
   - {fileID: 287963399}
   - {fileID: 29767763}
   - {fileID: 2131023551}
+  - {fileID: 98163320}
