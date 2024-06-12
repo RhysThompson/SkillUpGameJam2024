@@ -1034,7 +1034,7 @@ Animator:
   m_GameObject: {fileID: 489219285}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4bf86f56b0eaf4d4a843740e045bde72, type: 2}
+  m_Controller: {fileID: 9100000, guid: 311f8fbd8b197f44dbc925f76030d011, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1326,7 +1326,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LiftAnim
+          m_StringArgument: extendedLiftAnimation
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!54 &573838492
