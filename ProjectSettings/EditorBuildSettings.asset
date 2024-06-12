@@ -14,5 +14,32 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3D test levels/TestLevel2.unity
     guid: bf11ad26d57170948b19fdfbbd922c09
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl9.unity
+    guid: fa54f0ad79676664dbbcef7b5f8f3ae5
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl1.unity
+    guid: 8e5ad6d158bbc0b4292d475f9ffc9dea
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl2.unity
+    guid: a710e08916493b2498d0d9d67ce0c129
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl3.unity
+    guid: cd468e875b9192a4cbf4ee4b5c2011ff
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl4.unity
+    guid: 84362c1489441b641b770ed336828a97
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl7.unity
+    guid: f73a584d0a8552842acd4063b3b1662e
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl5.unity
+    guid: a9740cba28ab5b345919185c7e476341
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl8.unity
+    guid: 016681a3a04e3564bb3da70718dd1357
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl6.unity
+    guid: ef224878a992e3749a46773a9659df96
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
