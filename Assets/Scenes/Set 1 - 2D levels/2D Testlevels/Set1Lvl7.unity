@@ -1051,7 +1051,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: extendedLiftAnimation
+          m_StringArgument: Set1Lvl7
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!54 &348457087
@@ -1292,7 +1292,7 @@ Transform:
   m_GameObject: {fileID: 432228825}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0.22}
   m_LocalScale: {x: 6.2363553, y: 1.8338441, z: 4.8989415}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1309,7 +1309,7 @@ Animator:
   m_GameObject: {fileID: 432228825}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 311f8fbd8b197f44dbc925f76030d011, type: 2}
+  m_Controller: {fileID: 9100000, guid: fc6be0fb052d9174bab08878a51e3585, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2303,7 +2303,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.2, y: 15.940001, z: -80.2}
+  m_LocalPosition: {x: 27.1, y: 11.7, z: -80.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2640,11 +2640,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 791cf25c18736334288442385264aa8f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 404.32
+      value: 404.31995
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 791cf25c18736334288442385264aa8f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 404.32
+      value: 404.31995
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 791cf25c18736334288442385264aa8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2668,7 +2668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 791cf25c18736334288442385264aa8f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 791cf25c18736334288442385264aa8f, type: 3}
       propertyPath: m_LocalRotation.z
