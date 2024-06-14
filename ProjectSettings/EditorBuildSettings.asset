@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl8.unity
     guid: 500c3738271b8a345bf69d16e0e14e22
   - enabled: 1
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl9.unity
+    guid: 9e7836c4185e1b74d86569d393fb1665
+  - enabled: 1
     path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl1.unity
     guid: 8e5ad6d158bbc0b4292d475f9ffc9dea
   - enabled: 1
@@ -59,5 +62,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl9.unity
     guid: fa54f0ad79676664dbbcef7b5f8f3ae5
+  - enabled: 1
+    path: Assets/Scenes/Set 4 - Slide/Set4Lvl1.unity
+    guid: 6697b0cbe71d84844b8d2b71149c7836
+  - enabled: 1
+    path: Assets/Scenes/MazeTest.unity
+    guid: 07e1a299c96d98342973ffd26139bd27
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
