@@ -9,14 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: 1b8e7ab9247b9d440b4a186a7b9b90be
   - enabled: 1
-    path: Assets/Scenes/3D test levels/TestLevel1/TestLevel1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl1.unity
+    guid: 5269d6b28c624f146b5937760447b9a0
   - enabled: 1
-    path: Assets/Scenes/3D test levels/TestLevel2.unity
-    guid: bf11ad26d57170948b19fdfbbd922c09
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl2.unity
+    guid: c88468fb704204744bb032d64a415fea
   - enabled: 1
-    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl9.unity
-    guid: fa54f0ad79676664dbbcef7b5f8f3ae5
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl3.unity
+    guid: 0b3dbbb90147a3b40923a826e5a8ba22
+  - enabled: 1
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl4.unity
+    guid: 19b4b09829bba2645a1227d07e567a9a
+  - enabled: 1
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl5.unity
+    guid: 57826abd53fa35540a752538e1bfb028
+  - enabled: 1
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl6.unity
+    guid: a8fe99b1d3f826c448a390dd56b2baf2
+  - enabled: 1
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl7.unity
+    guid: f9323f4b0e483e949ade7bb1d4d2be49
+  - enabled: 1
+    path: Assets/Scenes/Set 1 - 2D levels/Set1Lvl8.unity
+    guid: 500c3738271b8a345bf69d16e0e14e22
   - enabled: 1
     path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl1.unity
     guid: 8e5ad6d158bbc0b4292d475f9ffc9dea
@@ -30,16 +45,19 @@ EditorBuildSettings:
     path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl4.unity
     guid: 84362c1489441b641b770ed336828a97
   - enabled: 1
-    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl7.unity
-    guid: f73a584d0a8552842acd4063b3b1662e
-  - enabled: 1
     path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl5.unity
     guid: a9740cba28ab5b345919185c7e476341
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl6.unity
+    guid: ef224878a992e3749a46773a9659df96
+  - enabled: 1
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl7.unity
+    guid: f73a584d0a8552842acd4063b3b1662e
   - enabled: 1
     path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl8.unity
     guid: 016681a3a04e3564bb3da70718dd1357
   - enabled: 1
-    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl6.unity
-    guid: ef224878a992e3749a46773a9659df96
+    path: Assets/Scenes/Set 2 - 3D tutorial/Set2Lvl9.unity
+    guid: fa54f0ad79676664dbbcef7b5f8f3ae5
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
