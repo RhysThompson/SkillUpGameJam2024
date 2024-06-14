@@ -68,5 +68,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MazeTest.unity
     guid: 07e1a299c96d98342973ffd26139bd27
+  - enabled: 1
+    path: Assets/Platform level.unity
+    guid: 010ee16ae13d2c54a9a341ffbf3ad0cf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
