@@ -1116,7 +1116,6 @@ GameObject:
   - component: {fileID: 348457089}
   - component: {fileID: 348457088}
   - component: {fileID: 348457087}
-  - component: {fileID: 348457086}
   m_Layer: 0
   m_Name: Lift Trigger
   m_TagString: DeathBox
@@ -1139,33 +1138,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 432228826}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &348457086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348457084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48a223d868d8eb54abf5c22497d0ae0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FunctiontoCall:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 432228827}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Set1Lvl7
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!54 &348457087
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1307,7 +1279,6 @@ GameObject:
   - component: {fileID: 432228830}
   - component: {fileID: 432228829}
   - component: {fileID: 432228827}
-  - component: {fileID: 432228828}
   m_Layer: 0
   m_Name: Moving Floor
   m_TagString: Untagged
@@ -1353,19 +1324,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &432228828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 432228825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f69d565c09234274ebdd4e998c574a17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneToLoad: 
 --- !u!54 &432228829
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2033,7 +1991,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.1, y: 11.7, z: -80.2}
+  m_LocalPosition: {x: 17.72, y: 12.46, z: -80.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
