@@ -663,6 +663,7 @@ GameObject:
   - component: {fileID: 145002215}
   - component: {fileID: 145002214}
   - component: {fileID: 145002216}
+  - component: {fileID: 145002217}
   m_Layer: 0
   m_Name: Level Pivot
   m_TagString: Untagged
@@ -722,6 +723,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &145002217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145002213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16f8f3af5feab84dae5072b2d96ec0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &246079070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5f60d0229f4b13d4cabc3288a0350e15, type: 3}
@@ -7526,6 +7539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1170442325}
+  - component: {fileID: 1170442326}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -7551,6 +7565,18 @@ Transform:
   - {fileID: 1572557135}
   m_Father: {fileID: 145002215}
   m_LocalEulerAnglesHint: {x: 0, y: 44.94, z: 0}
+--- !u!114 &1170442326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170442323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16f8f3af5feab84dae5072b2d96ec0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1320176366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8205,6 +8231,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 100, y: 0, z: 0}
+--- !u!1 &1511830461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511830464}
+  - component: {fileID: 1511830463}
+  m_Layer: 0
+  m_Name: GyroController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1511830463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511830461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e95746714c001941b14a6390c465196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1511830464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511830461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1256.9375, y: 142.79167, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572557134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4102748f0f3a9b743b7b4ec181eeb9fe, type: 3}
@@ -9433,3 +9503,4 @@ SceneRoots:
   - {fileID: 287963399}
   - {fileID: 126906259}
   - {fileID: 1638595784}
+  - {fileID: 1511830464}
